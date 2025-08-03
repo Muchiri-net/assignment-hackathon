@@ -1,55 +1,69 @@
-# assignment-hackathon
-Personal Portfolio Website
-This project is a personal portfolio website built using HTML and CSS. It showcases the profile, education, skills, achievements, and contact information of an individual, designed with a modern, clean look.
 
-Structure
-index.html: Contains the main structure of the webpage, including:
+# 🌐 Personal Portfolio Website
 
-Header with the site title and subtitle
+This is a **personal portfolio website** built using **HTML** and **CSS**. It presents an individual's professional and academic profile in a visually appealing format.
 
-Sidebar for navigation
+## 📁 Project Structure
 
-Main sections such as About, CV, Skills, Education, Achievements, and Contact
+```
+index.html
+style.css
+profile.jpg          (optional - personal image)
+background.jpg       (optional - background image)
+machakos-logo.png    (optional - school logo)
+``
 
-style.css: Provides all styling rules, including:
+## 🧱 Features & Explanation
 
-Base styles and resets
+### ✅ Layout & Structure
+- A **two-column layout** with:
+  - A fixed **sidebar** for profile and navigation.
+  - A flexible **main content area** for details.
 
-Layout styling using Flexbox
+### 🎨 Design Highlights
+- Mint green theme with dark sidebar and light main area.
+- Profile picture in a circular frame.
+- Background image support for a personalized look.
+- Hover effects and box shadows for modern aesthetics.
 
-Sidebar and main content formatting
+## 🧩 Section Overview
 
-Section-specific styling (education, skills, etc.)
+### 🔹 Sidebar
+- Navigation menu.
+- Profile picture.
+- Smooth hover interaction.
 
-Hover effects and color themes
+### 🔹 Main Content
+- **About**: A brief description.
+- **CV**: Link or embedded resume.
+- **Skills**: Lists tech skills with icons.
+- **Education**: Stylized education history (Don Bosco, AFRALTI, Machakos University).
+- **Achievements**: Space for Cisco Credly badges.
+- **Contact**: Social media links.
 
-Features
-Dark and light themed elements for contrast
+## 🖼️ Background Image (Optional)
+To add a background image, include this in `style.css`:
 
-Smooth scrolling behavior
+```css
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+```
 
-Responsive layout with a sidebar and main content area
+## 🚀 How to Use
 
-Custom hover effects for navigation links
+1. Clone or download the project.
+2. Open `index.html` in a browser.
+3. Customize images, content, and sections.
 
-Background image support
+## 🔧 Future Enhancements
+- Mobile responsiveness.
+- CSS animations.
+- Hosting with GitHub Pages or Netlify.
 
-Profile picture and university logo display
+---
 
-Sectioned layout for readability
-
-How to Use
-Download or clone the project.
-
-Make sure index.html and style.css are in the same folder.
-
-Optionally, add your own profile picture as profile.jpg and a background image named background.jpg in the same folder.
-
-Open index.html in any modern browser.
-
-Customization
-Edit the HTML file to update your personal information.
-
-Modify colors or layout in the CSS file as needed.
-
-You can add images or icons where appropriate.
+© Kelvin Muchiri
